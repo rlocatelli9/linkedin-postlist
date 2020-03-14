@@ -1,27 +1,20 @@
 <h1 align="center">
-<img alt="" title="" src="" width="" />
-  <!-- trocar: 'você pode colocar uma imagem (logo) que represente seu projeto (visualmente) -->
+<img alt="" title="" src=".github/github-linkedin.png" width="" />
 </h1>
 
-<h2 align="center">Template para README.md</h2>
+<h2 align="center">Interface Semelhando ao LinkedIn, em ReactJS</h2>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rlocatelli9/template-README">
-  <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rlocatelli9/linkedin-postlist">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rlocatelli9/template-README">
-  <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rlocatelli9/linkedin-postlist">
 
-  <a href="https://github.com/rlocatelli9/template-README/commits/master">
-  <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rlocatelli9/template-README">
-     <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
+  <a href="https://github.com/rlocatelli9/linkedin-postlist/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rlocatelli9/linkedin-postlist">
   </a>
 
-  <a href="https://github.com/rlocatelli9/template-README/issues">
-   <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/rlocatelli9/template-README">
-     <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
+  <a href="https://github.com/rlocatelli9/linkedin-postlist/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/rlocatelli9/linkedin-postlist">
 
   </a>
 
@@ -41,13 +34,18 @@
 
 Technologies used in the development of the project:
 
-- [Markdown](https://en.wikipedia.org/wiki/Markdown)
-- [Github](https://github.com)
-- [Emoji](https://gist.github.com/rxaviers/7360908)
+- [ReactJS](https://reactjs.org/)
+- [Babel](https://babeljs.io/)
+- [Webpack](https://webpack.js.org/)
+- [Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)
 
 ## 💻 Projeto
 
-Descrição do Projeto
+Aaplicação do zero utilizando Webpack, Babel, Webpack Dev Server e ReactJS.
+
+Nessa aplicação foir desenvolvido uma interface semelhante com a do LinkedIn, utilizando React.
+
+As informações contidas na interface são estáticas, manipuladas no estado do componente Pai e passadas por meio de propriedades para os demais componentes filhos.
 
 ## 🤔 Como contribuir
 
