@@ -14,7 +14,7 @@
 
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <img alt="License" src="https://github.com/rlocatelli9/linkedin-postlist/blob/master/LICENSE.md">
 </p>
 
 <p align="center">
