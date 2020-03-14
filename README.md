@@ -1,7 +1,3 @@
-<h1 align="center">
-<img alt="" title="" src=".github/github-linkedin.png" width="" />
-</h1>
-
 <h2 align="center">Interface Semelhando ao LinkedIn, em ReactJS</h2>
 
 <p align="center">
@@ -28,7 +24,9 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-<br>
+<h1 align="center">
+<img alt="" title="" src=".github/github-linkedin.png" width="" />
+</h1>
 
 ## :bookmark_tabs: Tecnologias
 
