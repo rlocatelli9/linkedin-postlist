@@ -1,4 +1,4 @@
-<h2 align="center">Interface Semelhando ao LinkedIn, em ReactJS</h2>
+<h2 align="center">Interface semelhante ao LinkedIn, em ReactJS</h2>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rlocatelli9/linkedin-postlist">
