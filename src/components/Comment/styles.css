@@ -1,0 +1,38 @@
+div#info_comment {
+  margin-top: 5px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+div#info_comment img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  position: relative !important;
+}
+
+div#info_comment div#comment {
+  display: flex;
+  flex-direction: column;
+}
+
+div#info_comment div#comment {
+  font-size: 14px;
+  margin-left: 8px;
+  padding: 10px;
+  border-radius: 0 25px 25px 25px;
+  background: rgb(243, 243, 243);
+}
+
+div#comment p#author {
+  font-weight: bold;
+}
+div#comment > span {
+  color: #999;
+  font-size: 13px;
+}
+
+div#comment p {
+}

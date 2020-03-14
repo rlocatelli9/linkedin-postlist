@@ -1,0 +1,37 @@
+header {
+  background: #283e4a;
+  width: 100%;
+  height: 45px;
+  position: static;
+  color: #fff;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 25px;
+}
+
+header img {
+  margin-left: 2%;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+a {
+  margin-right: 2%;
+  text-decoration: none;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+header a img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}

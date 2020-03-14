@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #e9ebee;
+}
+
+input,
+textarea,
+select {
+  background: none;
+  border: 0 none;
+  outline: 0 none;
+  border-bottom: solid 1px #fff;
+}
+
+form button {
+  margin-left: 5px;
+  outline: 0 none;
+  border: solid 1px #fff;
+  font-size: medium;
+  cursor: pointer;
+}
+
+form button:hover {
+  transform: scale(0.96);
+}
