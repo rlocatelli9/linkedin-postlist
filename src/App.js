@@ -2,13 +2,13 @@
 import React from "react"; //todo lugar que vai usar JSX precisa importar o React
 import "./App.css";
 import Header from "./components/Header";
-import PostList from "./components/PostList";
+import TimeLine from "./components/TimeLine";
 
 function App() {
   return (
     <>
       <Header />
-      <PostList />
+      <TimeLine />
     </>
   );
 }
