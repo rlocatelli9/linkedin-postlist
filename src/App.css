@@ -24,6 +24,7 @@ form button {
   outline: 0 none;
   border: solid 1px #fff;
   font-size: medium;
+  background: #e1e9ef;
   cursor: pointer;
 }
 

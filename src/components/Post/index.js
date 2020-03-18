@@ -31,17 +31,21 @@ export default function Post({ data }) {
         </div>
         <div className="post_content">{content}</div>
         <div className="to_comment">
-          <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE7Hiwojo4jdQ/profile-displayphoto-shrink_100_100/0?e=1589414400&v=beta&t=-NNeYG0tpfXpV6c1BWyg883M5HWnlxuPJfaMZLHRxYE" />
           <form onSubmit={handleSubmit}>
-            <textarea
-              id="msg"
-              placeholder="Comente aqui ..."
-              onChange={handleTextareaChange}
-              value={comment}
-            />
-            <button type="submit" id="submit_comment">
-              Publicar
-            </button>
+            <div id="text-msg">
+              <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE7Hiwojo4jdQ/profile-displayphoto-shrink_100_100/0?e=1589414400&v=beta&t=-NNeYG0tpfXpV6c1BWyg883M5HWnlxuPJfaMZLHRxYE" />
+              <textarea
+                id="msg"
+                placeholder="Comente aqui ..."
+                onChange={handleTextareaChange}
+                value={comment}
+              />
+            </div>
+            <div id="div-submit-button">
+              <button type="submit" id="submit_comment">
+                Publicar
+              </button>
+            </div>
           </form>
         </div>
         <div className="post_comments">
