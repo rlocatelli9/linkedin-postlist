@@ -1,5 +1,6 @@
 .postlist {
   width: 552px;
+  min-width: 477px;
   flex: 1;
   margin: 10px 8px;
 }

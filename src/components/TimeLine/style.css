@@ -10,6 +10,7 @@ div.wrapper-content {
 div.wrapper-content aside.profile {
   margin-top: 25px;
   width: 215px;
+  min-width: 215px;
   max-height: 390px;
   background: #fff;
   border-radius: 5px;
@@ -109,6 +110,7 @@ div.wrapper-content aside.profile div h4 {
 }
 div.wrapper-content aside.widgets {
   width: 312px;
+  min-width: 300px;
   margin-top: 25px;
   background-color: #fff;
   max-height: 450px;
